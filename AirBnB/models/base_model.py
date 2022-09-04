@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 """Base Model
 
-Module that defines the the Base Model 
+Module that defines the the Base Model
 for other models of the AirBnB clone project
 
 """
@@ -9,6 +9,7 @@ for other models of the AirBnB clone project
 from datetime import datetime
 import models
 import uuid
+
 
 class BaseModel:
     """BaseModel class
@@ -24,7 +25,7 @@ class BaseModel:
             time that the object changes.
     """
 
-     def __init__(self, *args, **kwargs):
+    def __init__(self, *args, **kwargs):
         """Base Model __init__ Method
         Method ton instantiate initial values of the class.
         """
