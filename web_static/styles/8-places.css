@@ -1,0 +1,105 @@
+.places{
+    text-align: center;
+    }
+
+    .articles-container{
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+    }
+    
+    .places h1{
+        text-align: left;
+        font-size: 30px;
+    }
+    
+    .places article{
+        display: inline-block;
+        width: 390px;
+        padding: 20px;
+        margin: 20px;
+        border:solid #FF5A5F 1px;
+        border-radius: 4px;
+        text-align: center;
+    }
+
+    .places .header-price{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: flex-start;
+        margin-bottom: 5px;
+    }
+    
+    .places article h2{
+        font-size: 30px;
+        margin: 0 auto;
+        display: inline-block;
+    }
+
+    .places article .price_by_night{
+        display: inline-block;
+        color: #FF5A5F;
+        border:solid #FF5A5F 4px;
+        border-radius: 50%;
+        min-width: 60px;
+        height: 60px;
+        font-size: 30px;
+        padding: 5px;
+        line-height: 60px;
+        float: right;
+        
+    }
+
+    .price_by_night p{
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .places article .information{
+        border-top: 1px solid #DDDDDD;
+        border-bottom: 1px solid #DDDDDD;
+        height: 80px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;  
+    }
+
+    .max_guest,
+    .number_rooms,
+    .number_bathrooms{
+        background-repeat: no-repeat;
+        margin-top: 10px;
+        background-position: center top;
+    }
+
+    .max_guest {
+        background-image: url('../images/icon_group.png');
+    }
+    
+   .number_rooms {
+        background-image: url('../images/icon_bed.png');
+    }
+    
+    .number_bathrooms {
+        background-image: url('../images/icon_bath.png');
+    }
+
+.max_guest p,
+.number_rooms p,
+.number_bathrooms p {
+	padding-top: 40px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.user{
+    text-align: left;
+}
+
+.description{
+    text-align: left;
+}
